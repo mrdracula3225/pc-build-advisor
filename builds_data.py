@@ -64,6 +64,8 @@ builds = {
         ],
     },
     "Casual Use": [
+        # Ultra-Ultra-low-budget (5k)
+        {"max_budget": 5000, "build": {"CPU": "Used Intel Core 2 Duo/AMD Athlon X2", "GPU": "Integrated Graphics", "RAM": "4GB DDR2/DDR3 (Used)", "Storage": "120GB Used HDD", "PSU": "Used 250W PSU", "Cabinet": "Used Mini Tower", "Total": 5000}},
         # Ultra-Budget (₹10K-₹20K)
         {"max_budget": 10000, "build": {"CPU": "Intel Celeron G6900", "GPU": "Integrated UHD 710", "RAM": "4GB DDR4", "Storage": "128GB SSD", "PSU": "300W", "Cabinet": "Basic Mini Tower", "Total": 9500}},
         {"max_budget": 15000, "build": {"CPU": "AMD Athlon 3000G", "GPU": "Integrated Vega 3", "RAM": "8GB DDR4", "Storage": "256GB SSD", "PSU": "350W", "Cabinet": "Mini Tower", "Total": 14000}},
