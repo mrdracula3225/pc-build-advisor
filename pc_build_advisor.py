@@ -1,13 +1,17 @@
 from builds_data import builds
 
 def pc_build_advisor():
+
+    # Print welcome message
     print("🖥️ Welcome to the PC Build Advisor!")
 
+    # Get user's budget input
     budget = int(input("💰 Enter your budget (in ₹): "))
     print("🎯 Choose your use case:")
     print("1. Gaming\n2. Video Editing\n3. Casual Use")
     use_case_choice = input("Enter your choice (1/2/3): ")
 
+    # Map user choice to use case
     use_cases = {"1": "Gaming", "2": "Video Editing", "3": "Casual Use"}
     use_case = use_cases.get(use_case_choice)
 
